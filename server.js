@@ -22,8 +22,8 @@ db.once('open', () => console.log('✅ Connected to MongoDB'));
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'yonathanm772@gmail.com', // Replace with your Gmail
-        pass: 'rrqv ypnp nppy qpdl' // Use an app password instead of your Gmail password
+        user: '', // Replace with your Gmail
+        pass: '' // Use an app password instead of your Gmail password
     }
 });
 
